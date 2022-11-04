@@ -8,6 +8,7 @@ main{
     margin: 5%;
 }
 
+/*Billedet på forsiden*/
 #mainbillede{
     background-image:url("images/agf.jpeg");
     background-size:cover;
@@ -19,6 +20,7 @@ section{
     gap: 10px;
 }
 
+/*Tekstens layout*/
 h1{
     font-weight: 2;
     text-transform: uppercase;
@@ -49,6 +51,7 @@ p{
     color: gray;
 }
 
+/* Flexbox cards*/
 .kortsection{
     display: flex;
     gap: 10px;
@@ -70,7 +73,7 @@ p{
     transition: 200ms;
 }
 
-
+/*cards under nyheder*/
 #fans{
     background-color:crimson;
     background-image: url(images/fans.jpg);
@@ -137,10 +140,11 @@ p{
         width: 100%;
     }
     #tekst{
-        width: 500px;
+        width: 100%;
     }
 }
 
+/*cards under agf tv*/
 .tvsection{
     display: flex;
     justify-content: space-around;
@@ -162,7 +166,7 @@ p{
 }
 
 
-
+/* responsive agf tv*/
 @media screen and (max-width:768px){
     .tvsection {
         flex-direction:column;
@@ -197,7 +201,7 @@ Logo og burger */
 
 /* RESPONSIVE: */
 /* MOBIL: */
-@media screen and (max-width:1080px){
+@media screen and (max-width:1099px){
     /*Distribuer elementer anderledes:*/
     header{
         justify-content:space-between;
@@ -221,7 +225,7 @@ Logo og burger */
 }
 
 /* LAPTOP: */
-@media screen and (min-width: 910px){
+@media screen and (min-width: 1100px){
     /* HEADER: LOGO*/
     #logo {/* Logoet. Er i en div fordi det spiller bedre med flexbox. */
         width:200px;
