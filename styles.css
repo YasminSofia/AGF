@@ -22,6 +22,7 @@ main{
     position: relative;
     animation-name: bold;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bold{
@@ -132,9 +133,9 @@ p{
     background-position: center;
 }
 
-#mål{
+#maal{
     background-color:crimson;
-    background-image: url(images/mål.jpg);
+    background-image: url(images/maal.jpg);
     background-size: cover;
     background-position: center;
 
