@@ -171,6 +171,7 @@ p{
 
     .kortsectionone div:nth-child(3)
     {width: 90%;}
+
     /*række 2*/
     .kortsectiontwo div:first-child
     {width: 90%;}
@@ -193,17 +194,21 @@ p{
 }
 
 .tvsection div{
-    width: 100%;
+    width: 300px;
+    height: 200px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.tvsection div:hover{
+    width: 350px;
+    height: 250px;
 }
 
 .tvsection div img{
     width: 100%;
 }
 
-.tvsection :hover{
-    filter: brightness(110%);
-    transition: 200ms;
-}
+
 
 
 /* responsive agf tv*/
@@ -213,6 +218,9 @@ p{
         align-items:center;
     }
 }
+
+
+
 
 /* HEADER: */
 header{
