@@ -16,6 +16,24 @@ main{
     margin-bottom: 5%;
 }
 
+#bold{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: bold;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bold{
+    0% {left:0px; top:50px;}
+    25% {left:200px; top:0px;}
+    50% {left:600px; top:20px;}
+    75% {left:800px; top:0px;}
+    100% {left:1200px; top:40px;}
+}
+
+
 section{
     gap: 10px;
 }
@@ -115,9 +133,9 @@ p{
     background-position: center;
 }
 
-#mål{
+#maal{
     background-color:crimson;
-    background-image: url(images/mål.jpg);
+    background-image: url(images/maal.jpg);
     background-size: cover;
     background-position: center;
 
